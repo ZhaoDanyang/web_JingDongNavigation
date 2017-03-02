@@ -1,0 +1,127 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    height: 400px;
+    margin-left:10px;
+    margin-top: 10px;
+    background-color: gray;
+    /*position: relative;*/
+}
+
+ #navigationBar
+{
+    /*padding-left: 0;*/
+    line-height: 40px;
+    /*width: 190px;*/
+    height: 40px;
+    background-color: yellow;
+    padding-left: 20px;
+     /*box-sizing: border-box;*/
+}
+/*初始化li标签*/
+ul li
+{
+    list-style-type: none;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    /*background-color: aqua;*/
+    padding-left: 20px;
+    /*position: relative;*/
+}
+
+ul li .navigationA
+{
+    text-decoration: none;
+    color: white;
+}
+
+.submenu
+{
+    /*height: 360px;*/
+    width: 1000px;
+    /*background-color: aqua;*/
+    /*margin-left: 220px;*/
+    /*margin-top: 40px;*/
+    left: 230px;
+    top: 50px;
+    /*top: 40px;*/
+    position: absolute;
+    padding: 0;
+    border: 2px solid red;
+    display: none;
+}
+.leftDiv
+{
+    width: 720px;
+    /*background-color: aquamarine;*/
+    float: left;
+    /*margin-left: 5px;*/
+    /*height: 360px;*/
+}
+
+.rightDiv
+{
+    width: 250px;
+    /*background-color: greenyellow;*/
+    float: right;
+    /*height: 360px;*/
+
+}
+
+.leftDiv dl
+{
+    display: block;
+    border-bottom: 1px solid gray;
+    padding-bottom: 6px;
+    overflow: hidden;
+
+}
+
+ .leftDiv dl dt
+ {
+     display: block;
+     float: left;
+     width: 60px;
+     text-align: right;
+     height: 22px;
+     line-height: 22px;
+     padding-right: 6px;
+ }
+
+ li .leftDiv dl dt .dt_a
+ {
+     color: black;
+     text-decoration: none;
+     font-size: 10pt;
+ }
+
+ .leftDiv dl dd
+ {
+     /*position: absolute;*/
+     display: block;
+     overflow: hidden;
+ }
+
+ .leftDiv dd .dd_a
+{
+    color: gray;
+    height: 14px;
+     line-height: 14px;
+    /*width: 30px;*/
+     font-size: 9pt;
+     border-left: 1px solid gray;
+     padding: 0 8px;
+     margin: 4px 0;
+     float: left;
+    text-decoration: none;
+}
